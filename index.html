@@ -54,22 +54,6 @@ $(document).ready(function(){
   });
  });
  
- function replaceText() {
-
-    $("body").find(".highlight").removeClass("highlight");
-
-    var searchField = $("#search").val();
-
-    var custfilter = new RegExp(searchword, "i");
-    var repstr = "<span class='highlight'>" + searchField + "</span>";
-
-    if (searcField != "") {
-        $('body').each(function() {
-            $(this).html($(this).html().replace(custfilter, repstr));
-        })
-    }
-}
- 
  $('#result').on('click', 'li', function() {
   var click_text = $(this).text().split('|');
   $('#search').val($.trim(click_text[0]));
