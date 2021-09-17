@@ -1,7 +1,7 @@
 [
         {
             "undefined": "1",
-            "Book/Article": "Collapse: How Societies Choose to Fail or Succeed",
+            "Book": "Collapse: How Societies Choose to Fail or Succeed",
             "Author(s)": "Jared M. Diamond",
             "Description": "How do we learn lessons from past societies that have survived or failed, in order to better tackle the challenges of ongoing human survival that we face today?",
             "Question": "In what ways do societies \"choose\" to succeed or fail?",
@@ -12,7 +12,7 @@
         },
         {
             "undefined": "1",
-            "Book/Article": "Ain’t No Makin’ It: Aspirations and Attainment in a Low-Income Neighborhood",
+            "Book": "Ain’t No Makin’ It: Aspirations and Attainment in a Low-Income Neighborhood",
             "Author(s)": "Jay MacLeod",
             "Description": "A groundbreaking study following two groups of young men from a low-income housing project for over two decades. MacLeod shows how the American class system makes it almost impossible to break out of poverty.",
             "Question": "What can we achieve if we work hard?",
