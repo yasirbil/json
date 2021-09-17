@@ -48,7 +48,7 @@ $(document).ready(function(){
    $.each(data, function(key, value){
     if (value.Book.search(expression) != -1 || value.Question.search(expression) != -1 || value.Description.search(expression) != -1 || value.Big_idea.search(expression) != -1 || value.Category.search(expression) != -1)
     {
-     $('#result').append('<li class="list-group-item link-class"> '+value.Book+' -- <span class="text-primary">'+value.Question+' -- '+value.Description+'</span> -- <span class="text-success">'+value.Big_idea+'</span> -- <span class="text-white">'+value.Category+'</span></li>');
+     $('#result').append('<li class="list-group-item link-class"> '+value.Book+' -- <span class="text-primary">'+value.Question+' -- <span class="text-white">'+value.Description+'</span> -- <span class="text-success">'+value.Big_idea+'</span> -- <span class="text-white">'+value.Category+'</span></li>');
     }
    });   
   });
