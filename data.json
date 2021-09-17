@@ -1,4 +1,5 @@
-      [
+{
+    "Books": [
         {
             "undefined": "1",
             "Book/Article": "Collapse: How Societies Choose to Fail or Succeed",
@@ -1970,3 +1971,4 @@
             "Ideas": "Smith Richardson Foundation: Support research in U.S. foreign and domestic public policy"
         }
     ]
+}
