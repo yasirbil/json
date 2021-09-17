@@ -55,8 +55,8 @@ $(document).ready(function(){
  });
  
  $('#result').on('click', 'li', function() {
-  var click_text = $(this).text();
-  $('#search').val($.trim(click_text[0]));
+  var click_text = $(this).text().split('|');
+  $('#search').val($.trim(click_text[1]));
   $("#result").html('');
  });
 });
