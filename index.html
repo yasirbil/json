@@ -46,9 +46,9 @@ $(document).ready(function(){
   var expression = new RegExp(searchField, "i");
   $.getJSON('data.json', function(data) {
    $.each(data, function(key, value){
-    if (value.Book.search(expression) != -1 || value.Description.search(expression) != -1 || value.Question(expression) != -1)
+    if (value.Book.search(expression) != -1 || value.Description.search(expression) != -1 || value.Question(expression) != -1 || value.Big_Idea(expression) != -1 || value.Category(expression) != -1)
     {
-     $('#result').append('<li class="list-group-item link-class"> '+value.Book+' -- <span class="text-primary">'+value.Question+'</span> -- <span class="text-success">'+value.Description+'</span></li>');
+     $('#result').append('<li class="list-group-item link-class"> '+value.Book+' -- <span class="text-primary">'+value.Question+'</span> -- <span class="text-success">'+value.Description+'</span> -- <span class="text-info">'+value.Big_Idea+'</span> -- <span class="text-white">'+value.Category+'</span></li>');
     }
    });   
   });
